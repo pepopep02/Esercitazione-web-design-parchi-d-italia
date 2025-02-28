@@ -1,0 +1,900 @@
+body {
+    background: color #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif
+    margin 0%;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+header {
+    max-width: 1100px;
+    background-color: white;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header p {
+    margin: 0%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    display: flex; 
+    gap: 16px;
+    color: #49B165;
+
+}
+
+header  a {
+    text-decoration: none;
+    color: #49B165
+
+}
+
+header nav a:hover {
+    text-decoration: underline;
+
+}
+
+img {
+    max-width: 100%
+}
+
+.info {
+    margin: auto;
+    max-width: 1440px;
+    position: relative;
+    width: 100%
+}
+
+.info_home {
+    margin: auto;
+    max-width: 1440px;
+    position: relative;
+    width: 100%
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #f0f0f0;
+    font-size: 48px;
+
+}
+
+/* sezione hero ---------- */
+
+.hero {
+    
+    margin: auto;
+    max-width: 1440px;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+
+}
+
+.hero_gran_paradiso h2 {
+    width: 50%;
+    font-size: 25px;
+    display: flex;
+    margin:auto;
+    padding: 40px;
+}
+
+.hero_etna h2 {
+    width: 50%;
+    font-size: 25px;
+    display: flex;
+    margin:auto;
+    padding: 40px;
+}
+
+.hero_pollino h2 {
+    width: 50%;
+    font-size: 25px;
+    display: flex;
+    margin:auto;
+    padding: 40px;
+}
+
+.hero_dolomiti {
+    display: flex;
+    margin: auto;
+    max-width: 1440px;
+    padding: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+}
+
+
+.hero_dolomiti h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* --------------------------- */
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.parco {
+    display: flex;
+    margin: auto;
+    padding: 58px 0px;
+    align-items: left;
+    max-width: 1100px;
+    gap: 70px;
+
+}
+
+.parchi_button {
+    background-color: #000000;
+    color: white; /* Testo bianco */
+    border: none; /* Nessun bordo */
+    padding: 10px 40px; /* Spaziatura interna */
+    font-size: 16px; /* Dimensione del testo */
+    cursor: pointer; /* Cambia il cursore al passaggio */
+    border-radius: 29px; /* Angoli arrotondati */
+    transition: 200ms;
+}
+
+.parchi_button:hover {
+    background-color: #49B165; /* Colore più scuro al passaggio */
+    color: #ffffff;
+}
+
+
+h3{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.parchihome p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.floraefauna {
+    background-color: #49B165;
+    display: flex;
+    justify-content: center;
+   
+}
+.testi_immagini {
+    max-width: 1100px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testi_flora {
+
+    max-width: 40%;
+}
+
+.floraefauna h4 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #f0f0f0;
+
+}
+
+.floraefauna p {
+    font-size: 25px;
+    color: #f0f0f0;
+}
+
+.images_flora {
+    margin: 24px;
+}
+
+
+
+.flora_fauna_button {
+    background-color: #000000;
+    color: white; /* Testo bianco */
+    border: none; /* Nessun bordo */
+    padding: 10px 40px; /* Spaziatura interna */
+    font-size: 16px; /* Dimensione del testo */
+    cursor: pointer; /* Cambia il cursore al passaggio */
+    border-radius: 29px; /* Angoli arrotondati */
+    transition: 200ms;
+}
+
+
+.flora_fauna_button:hover {
+    background-color: #ffffff; /* Colore più scuro al passaggio */
+    color: #000000;
+}
+
+
+.attività {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.attività h4 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.attività p {
+    font-size: 25px;
+
+}
+
+.home_images_attivià {
+    width: 200%;
+}
+
+.testi_attività_home {
+    width: 200%;
+    padding: 100px;
+}
+
+.attività_button {
+        background-color: #000000;
+        color: white; /* Testo bianco */
+        border: none; /* Nessun bordo */
+        padding: 10px 40px; /* Spaziatura interna */
+        font-size: 16px; /* Dimensione del testo */
+        cursor: pointer; /* Cambia il cursore al passaggio */
+        border-radius: 29px; /* Angoli arrotondati */
+        transition: 200ms;
+
+
+    }
+    
+.attività_button:hover {
+    background-color: #49B165; /* Colore più scuro al passaggio */
+}    
+
+
+footer {
+    background-color: #49B165;
+    margin: auto;
+
+}
+
+.testo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    color: #f0f0f0;
+
+}
+
+.testo_destra {
+    text-align: right;
+    font-size: 16px;
+    color: #f0f0f0;
+}
+
+.box_altri_parchi {
+    justify-items: center;
+}
+
+.sezione_altri_parchi {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1100px;
+    width: 100%;
+    margin: 70px;
+    gap: 70px;
+    justify-self: center;
+}
+
+
+.sezione_altri_parchi h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.sezione_parchi {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1100px;
+    width: 100%;
+    margin: 70px;
+    gap: 70px;
+    justify-self: center;
+}
+
+@media (max-width:800px) {
+    .sezione_parchi {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.sezione_parchi p {
+    font-size: 20px;
+    width: 55%;
+}
+
+.sezione_parchi h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.button_parchi {
+    background-color: #000000;
+    color: white; /* Testo bianco */
+    border: none; /* Nessun bordo */
+    padding: 10px 50px; /* Spaziatura interna */
+    font-size: 16px; /* Dimensione del testo */
+    cursor: pointer; /* Cambia il cursore al passaggio */
+    border-radius: 29px; /* Angoli arrotondati */
+    transition: 200ms;
+}
+
+.button_parchi:hover {
+    background-color: #49B165; /* Colore più scuro al passaggio */
+    color: #ffffff;
+}
+
+
+.info {
+    margin: auto;
+    max-width: 1440px;
+    position: relative
+}
+
+.info img {
+    max-width: 100%;
+}
+
+.info h1 {
+    margin: auto;
+    max-width: 100%;
+    padding: 60px;
+}
+
+.hero {
+    display: flex;
+    margin: auto;
+    max-width: 1440px;
+    padding: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.hero h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sfondo_verde {
+    background-color: #49B165;
+    
+}
+
+.sezione_flora_fauna {
+    display: flex;
+    margin: auto;
+    padding: 70px 0px ;
+    max-width: 1200px;
+    gap: 150px;
+}
+
+.flofa_images {
+    width: 200%;
+}
+
+.sezione_flora_fauna p {
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.colore_testo_bianco {
+    color: #f0f0f0;
+}
+
+.sezione_attività {
+    display: flex;
+    margin: auto; 
+    max-width: 1000px;
+    gap: 100px;
+    padding: 45px 0px;
+    justify-self: center;
+}
+
+.sezione_attività img {
+    max-width: 400px;
+
+}
+
+.sezione_attività p {
+    font-size: 20px;
+    width: 100%;
+}
+.sezione_attività h3 {
+    width: 400px;
+}
+
+
+/* pagina parco paradiso ------------------------ */ 
+
+.sezione_gran_paradiso {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto; 
+    max-width: 1100px;
+    padding: 60px 0px;
+    justify-self: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+
+
+.sezione_gran_paradiso p {
+    font-size: 20px;
+}
+
+/* pagina parco etna ------------------------ */ 
+
+
+.sezione_etna {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto; 
+    max-width: 1100px;
+    padding: 60px 0px;
+    justify-self: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+.sezione_etna img {
+    max-width: 500px;
+}
+
+.sezione_etna p {
+    font-size: 20px;
+}
+
+
+.sezione_etna p {
+    font-size: 20px;
+}
+
+
+.etna_images_logo {
+    padding: 0px 30px 45px 2px;
+} 
+
+.testi_sez_etna_logo p {
+    width: 100%;
+    font-size: 20px;
+    
+}
+
+.testi_sez_etna_logo h3 {
+    width: 100%;
+    margin: auto;
+
+}
+
+
+/* parco singolo pollino-------------- */
+
+
+.sezione_pollino {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto; 
+    max-width: 1100px;
+    padding: 60px 0px;
+    justify-self: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+.sezione_pollino img {
+    max-width: 450px;
+}
+
+.sezione_pollino p {
+    font-size: 20px;
+}
+
+.pollino_images_logo {
+    padding: 33px;
+}
+
+.testi_sez_pollino_logo h3 {
+    width: 100%;
+    margin: auto;
+
+}
+
+.testi_sez_pollino_logo p {
+    width: 100%;
+    
+}
+
+/* pagina dolomiti ---------------------- */
+
+
+.sezione_dolomiti {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto; 
+    max-width: 1100px;
+    padding: 60px 0px;
+    justify-self: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+.sezione_dolomiti img {
+    max-width: 450px;
+}
+
+
+
+
+@media (max-width:800px) {
+ 
+ body {
+    margin: 10px;
+ }
+
+
+ h1 {
+    font-size: 18px;
+ }
+
+.hero h2 {
+       
+    font-size: 16px;
+    
+}
+
+.hero {
+    padding: 10px;
+    width: 80%;
+
+}
+
+.parco {
+    display: block;
+}
+
+.testi_immagini {
+    display: block;
+}
+
+.testi_flora {
+    max-width: 100%;
+    margin: 10px;
+    margin-bottom: 24px;
+}
+
+.images_flora {
+margin: 10px;
+}
+
+.attività {
+    margin: 10px;
+}
+
+.testi_attività_home {
+    width: 100%;
+    padding: 15px;
+}
+
+.home_images_attivià {
+    width: 100%;
+}
+
+/* pagina attività */
+.sezione_attività {
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+
+}
+  
+
+.sfondo_verde {
+    padding: 10px;
+}
+
+.sezione_attività img {
+    max-width: 370px;
+}
+
+.sezione_flora_fauna {
+    display: block;
+    padding: 40px;
+    margin: 10px;
+}
+
+.flofa_images {
+    width: 100%;
+}
+ 
+.sezione_flora_fauna p {
+width: 100%;
+}
+
+/* parco singolo gran paradiso */
+
+
+.hero_gran_paradiso {
+    padding: 10px;
+    width: 80%;
+}
+
+.hero_gran_paradiso h2 {
+    font-size: 16px;
+    width: 100%;
+}
+
+.sezione_gran_paradiso {
+    display: block;
+    padding: 40px;
+    margin: 10px;
+    justify-items: center;
+    justify-self: center;
+    justify-content: center;
+}
+
+.paradiso_images {
+    width: 100%;
+}
+
+.testi_sez_paradiso {
+    display: block;
+    margin: 10px;
+    width: 120%;
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.testi_sez_paradiso h3 {
+width: 85%;
+justify-self: center;
+
+}
+
+.testi_sez_paradiso p {
+    width: 85%;
+    
+    justify-self: center;
+    
+}
+
+/* sezione altri parchi--------------------- */
+
+.sezione_altri_parchi {
+    display: block;
+    
+   
+
+} 
+
+
+
+.altro_parco {
+    margin-bottom: 30px;
+}
+
+
+.box_altri_parchi {
+    margin: 10px;
+    width: 95%;
+}
+
+/* parco singolo etna ------------- */
+
+.hero_etna {
+    padding: 10px;
+    width: 80%;
+}
+
+.hero_etna h2 {
+    font-size: 16px;
+    width: 100%;
+}
+
+.sezione_etna {
+    display: block;
+    padding: 40px;
+    margin: 10px;
+    justify-self: center;
+}
+
+.sezione_etna1 {
+    display: block;
+    padding:  40px;
+    margin: 10px;
+}
+
+.etna_images  {
+max-width: 90%;
+justify-self: center;
+}
+
+.etna_images img {
+    max-width: 100%;
+    justify-self: center;
+}
+.etna_images_logo img {
+    max-width: 80%;
+    justify-self: center;
+}
+
+.testi_sez_etna {
+    display: block;
+    margin: 10px;
+    width: 100%;
+}
+
+.testi_sez_etna h3 {
+    display: block;
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+    justify-self: center;
+}
+
+.testi_sez_etna p {
+    display: block;
+    margin: 10px;
+    width: 110%;
+    padding: 20px;
+    justify-self: center;
+}
+
+.testi_sez_etna1 {
+    display: block;
+    margin: 10px;
+    width: 100%;
+    justify-self: center;
+}
+
+.testi_sez_etna2 {
+    display: block;
+    margin: 10px;
+    width: 100%;
+    justify-self: center;
+}
+
+.testi_sez_etna3 {
+    display: block;
+    margin: 10px;
+    width: 100%;
+    justify-self: center;
+
+}
+
+.testi_sez_etna3 h3 {
+    display: block;
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+    justify-self: center;
+    
+}.testi_sez_etna3 p {
+    display: block;
+    margin: 10px;
+    width: 100%;
+    padding: 20px;
+    justify-self: center;
+    
+} 
+
+/* parco singolo pollino ------------- */
+
+.hero_pollino {
+    padding: 10px;
+    width: 80%;
+}
+
+.hero_pollino h2 {
+    font-size: 16px;
+    width: 100%;
+}
+
+.sezione_pollino {
+    display: block;
+    padding: 60px;
+    margin: 10px;
+}
+
+.testi_sez_pollino {
+    margin: 10px;
+}
+
+.testi_sez_pollino h3 {
+    width: 110%;
+}
+
+.testi_sez_pollino {
+    width: 110%;
+}
+
+.pollino_images img {
+    max-width: 100%;
+}
+
+
+.pollino_images  {
+    max-width: 100%;
+    }
+ .pollino_images_logo  {
+        max-width: 100%;
+        }    
+
+/* parco singolo dolomiti ------------- */
+
+
+.hero_dolomiti {
+    padding: 10px;
+    width: 80%;
+}
+
+.hero_dolomiti h2 {
+    font-size: 16px;
+    width: 100%;
+}
+
+.sezione_dolomiti {
+    display: block;
+    padding: 60px;
+    margin: 10px;
+}
+
+.dolomiti_images img {
+    max-width: 100%;
+}
+
+
+.dolomiti_images  {
+    max-width: 100%;
+    }
+
+
+.testi_sez_dolomiti p {
+     
+     width: 110%;
+ }
+
+.testi_sez_dolomiti h3 {
+    width: 110%;
+}
+
+
+/* footer */
+.testo {
+    margin: 10px;
+    display: grid;
+}
+
+}
